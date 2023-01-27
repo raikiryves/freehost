@@ -13,5 +13,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: softtalent
-        password: JeJbSwyxH!!$X^4B#qBF
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
