@@ -11,7 +11,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: https://softtalent.000webhostapp.com
-        username: yvesmarcelin21
-        password: crystal21
+        server: files.000webhost.com
+        username: softtalent
+        password: @Crystal21
         server-dir : public_html/
